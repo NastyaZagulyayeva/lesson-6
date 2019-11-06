@@ -135,7 +135,7 @@ video {
 }
 
 #about h3 {
-    padding: 5% 0;
+    padding: 8% 0;
     font-family: "DroidSans-Bold";
     font-size: 45px;
     text-align: center;
@@ -153,10 +153,6 @@ video {
 #about ul {
     display: flex;
     padding: 5% 10%;
-}
-
-#about ul li {
-
 }
 
 #about ul li i {
@@ -181,3 +177,68 @@ video {
     font-size: 20px;
     text-align: center;
 }
+
+#portfolio {
+
+}
+
+#portfolio h3 {
+    padding: 8% 0;
+    font-family: "DroidSans-Bold";
+    font-size: 45px;
+    text-align: center;
+    color: #2C3E50;
+}
+
+#portfolio .nav-products ul {
+    display: flex;
+    padding: 0 20% 5%;
+    justify-content: space-between;
+
+}
+
+#portfolio .nav-products ul li {
+    width: 20%;
+    padding: 5px 10px;
+    font-family: "DroidSans-Regular";
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#portfolio .nav-products ul li:hover {
+    background-color: #75CF9B;
+    color: #FFF;
+}
+
+#portfolio .nav-products ul li:active {
+    background-color: #2ECC71;
+    color: #FFF;
+}
+
+#portfolio .gallery-products {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows: 50% 50%;
+    margin: 0 22% 3%;
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+#portfolio .gallery-products .img-wraper {
+    float: left; 
+    margin-bottom: 10px;
+}
+
+#portfolio .gallery-products .img-wraper img {
+    width: 250px;
+    height: 250px; 
+    object-fit: cover;
+}
+
+#portfolio .gallery-products .img-wraper img:hover {
+    background-color: rgba(0, 0, 0, 0.6);;
+}
+
