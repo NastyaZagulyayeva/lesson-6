@@ -4,6 +4,12 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: "DroidSans-Regular";
+    src: url(./fonts/DroidSerif/DroidSerif.ttf) format("truetype");
+    font-weight: 400;
+}
+
 
 header {
     background-color: transparent;
@@ -41,7 +47,7 @@ header .container {
 }
 
 .video {
-    height: 100vh;
+    height: auto;
     background-color: antiquewhite;
 }
 
@@ -122,4 +128,56 @@ video {
     left: -10px;
     margin-left: -50%;
     margin-bottom: 5%;
+}
+
+#about {
+    background-color: #34495E;
+}
+
+#about h3 {
+    padding: 5% 0;
+    font-family: "DroidSans-Bold";
+    font-size: 45px;
+    text-align: center;
+    color: #FFF;
+
+}
+
+#about p {
+    padding: 0 25%;
+    font-family: "DroidSans-Regular";
+    font-size: 24PX;
+    color: #FFF;
+}
+
+#about ul {
+    display: flex;
+    padding: 5% 10%;
+}
+
+#about ul li {
+
+}
+
+#about ul li i {
+    margin: 0 33%;
+    padding: 17px 17px 0 17px;
+    font-size: 75px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+#about ul li .service-title {
+    padding-top: 5%;
+    font-family: "DroidSans-Bold";
+    font-size: 26px;
+    text-align: center;
+}
+
+#about ul li .about-service {
+    padding: 5% 20% 1%;
+    font-family: "DroidSans-Regular";
+    font-size: 20px;
+    text-align: center;
 }
