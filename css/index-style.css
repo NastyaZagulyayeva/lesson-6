@@ -178,11 +178,8 @@ video {
     text-align: center;
 }
 
-#portfolio {
 
-}
-
-#portfolio h3 {
+#portfolio h3, #contact .contact-title h3 {
     padding: 8% 0 4%;
     font-family: "DroidSans-Bold";
     font-size: 45px;
@@ -294,7 +291,86 @@ video {
     color: #FFF;
 }
 
-.icon-twitter + .icon-instagram {
+#team .our-team .employee .social i.icon-twitter + .icon-instagram {
     margin-left: 5%;
+}
+
+#contact  {
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "form address";
+    grid-template-rows: auto auto ;
+    grid-template-columns: 70% 30%;
+    margin: 0 20%;
+    background-color: #FFF;
+}
+
+#contact .contact-title {
+    grid-area: title;
+    padding-bottom: 10%;
+}
+
+#contact form {
+    grid-area: form;
+    padding-left: 23%;
+}
+
+#contact form input {
+    width: 70%;
+    padding: 2%;
+    font-family: "DroidSans-Regular";
+    font-size: 26px;
+    border: none;
+    border-bottom: 2px solid #2ecc71;
+}
+
+#contact form input#name + #email {
+    margin-top: 5%;
+}
+
+#contact form textarea {
+    width: 70%;
+    margin-top: 5%;
+    padding: 2%;
+    font-family: "DroidSans-Regular";
+    font-size: 26px;
+    border: none;
+    border-bottom: 2px solid #2ECC71;
+}
+
+#contact form #btnSubmit {
+    width: 30%;
+    margin: 8% 0;
+    font-family: "DroidSans-Regular";
+    font-size: 21px;
+    border-radius: 15px;
+    background-color: #2ECC71;
+    color: #FFF;
+
+}
+
+#contact address {
+    grid-area: address;
+    font-size: 20px;
+}
+
+#contact address p {
+    font-family: "DroidSans-Bold";
+    font-size: 16px;
+}
+
+#contact address p + p {
+    margin-top: 15%;
+}
+
+
+
+
+#contact .contact-title p {
+    font-family: "DroidSans-Bold";
+    font-size: 26px;
+    text-align: center;
+    color: #2C3E50;
 }
 
