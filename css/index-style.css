@@ -134,8 +134,8 @@ video {
     background-color: #34495E;
 }
 
-#about h3 {
-    padding: 8% 0;
+#about h3, #team h3 {
+    padding: 8% 0 4%;
     font-family: "DroidSans-Bold";
     font-size: 45px;
     text-align: center;
@@ -183,7 +183,7 @@ video {
 }
 
 #portfolio h3 {
-    padding: 8% 0;
+    padding: 8% 0 4%;
     font-family: "DroidSans-Bold";
     font-size: 45px;
     text-align: center;
@@ -240,5 +240,61 @@ video {
 
 #portfolio .gallery-products .img-wraper img:hover {
     background-color: rgba(0, 0, 0, 0.6);;
+}
+
+#team {
+    padding-bottom: 5%;
+    background-color: #2980B9;
+}
+
+#team .our-team {
+    display: flex;
+    margin: 0 20%;
+}
+
+#team .our-team .employee .employee-name {
+    padding: 7% 0;
+    font-family: "DroidSans-Bold";
+    font-size: 26px;
+    text-align: center;
+}
+
+#team .our-team .employee p {
+    width: 70%;
+    margin: 0 auto;
+    font-family: "DroidSans-Regular";
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+    color: #FFF;
+}
+
+#team .our-team .employee img {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 3px solid #FFF; 
+    object-fit: cover;
+}
+
+#team .our-team .employee .social {
+   display: flex;
+   justify-content: center;
+   margin: 5% 0;
+}
+
+#team .our-team .employee .social i {
+    padding: 3% 3% 0;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+.icon-twitter + .icon-instagram {
+    margin-left: 5%;
 }
 
