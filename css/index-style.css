@@ -58,7 +58,7 @@ header .container {
 
 .video {
     height: auto;
-    background-color: antiquewhite;
+    background-color: antiquewhite;/*Это ж для теста было. Зачем оно в мастере? )*/
 }
 
 video {
@@ -93,7 +93,7 @@ video {
     top: 30%;
 }
 .greeting h2 {
-    font-family: "DroidSans-Bold";
+    font-family: "DroidSans-Bold"; /*Где семейство?*/
     font-size: 80px;
     text-align: center;
     color: #FFF;
@@ -236,7 +236,7 @@ video {
 
 #portfolio .gallery-products .img-wraper {
     position: relative;
-    float: left; 
+    float: left; /*Я ж просил избавить меня от созерцания флоатов!*/
     margin-bottom: 10px;
 }
 
@@ -281,7 +281,7 @@ video {
 
 #portfolio .gallery-products .img-wraper img {
     width: 250px;
-    height: 250px; 
+    height: 250px;
     object-fit: cover;
 }
 
@@ -320,9 +320,9 @@ video {
     display: block;
     margin: 0 auto;
     width: 230px;
-    height: 230px;
+    height: 230px;/*А без высоты никак? Если никак, то может лучше max-height - а то при определенных размерах вытянет картинку....*/
     border-radius: 50%;
-    border: 3px solid #FFF; 
+    border: 3px solid #FFF;
     object-fit: cover;
 }
 
@@ -347,7 +347,7 @@ video {
 
 #contact  {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     "title title"
     "form address";
     grid-template-rows: auto auto ;
@@ -429,7 +429,7 @@ video {
 
 footer {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     "logo logo"
     "address social";
     grid-template-rows: auto auto ;
@@ -470,6 +470,6 @@ footer .social-footer i {
 
 footer .social-footer i + i {
     margin-left: 5%;
-
+/*Лишние пустые строки*/
 }
 

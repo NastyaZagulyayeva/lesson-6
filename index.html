@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        
+
         <link rel="stylesheet" type="text/css" href="./css/index-style.css">
         <link rel="stylesheet" href="./icon/icon-styles.css">
         <link rel="stylesheet" type="text/css" href="./css/reset.css">
@@ -48,14 +48,14 @@
             <div class="greeting">
                 <h2>Welcome To  Kramerica Industries</h2>
             </div>
-            <div class="icon-wraper"><i class="icon-check-circle"></i></div>
+            <div class="icon-wraper"><i class="icon-check-circle"></i></div><!-- Иконка белой была на дизайне, а не прозрачной. Линии до краев, а не до конца враппера -->
         </section>
         <section id="about">
-            <h3>About</h3>
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+            <h3>About</h3><!-- Заголовки у секций должны быть одного уровня -->
+            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p><!-- Текст полосой - не читабельно. Лучше перенести по строкам -->
             <ul class="services">
                 <li class="serveses-item">
-                    <i class="icon-settings-streamline-1"></i>
+                    <i class="icon-settings-streamline-1"></i><!-- Цифры (и их буквенное отображение) в нейминге классов использовать не стоит -->
                     <p class="service-title">Services</p>
                     <p class="about-service">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
                 </li>
@@ -75,19 +75,19 @@
             <h3>Portfolio</h3>
             <nav class="nav-products">
                 <ul>
-                    <li>All</li>
+                    <li>All</li><!-- Нет активного состояния по умолчанию -->
                     <li>Design</li>
                     <li>Web</li>
                     <li>Illustration</li>
                     <li>Motion</li>
                 </ul>
-                </nav>
+                </nav><!-- Форматирование -->
             <ul class="gallery-products">
                 <li class="img-wraper">
-                    <img src="./img/product-1.png" alt="product 1">
+                    <img src="./img/product-1.png" alt="product 1"><!-- Описание альт - понятным надо делать  -->
                     <div class="hoverEffect">
                         <p>Project Title</p>
-                        <button>Veiw project</button>
+                        <button>Veiw project</button><!-- Это сслыка на проект -->
                     </div>
                 </li>
                 <li class="img-wraper">
@@ -132,10 +132,10 @@
             <div class="our-team">
                 <div class="employee">
                     <img src="./img/eployee-2.jpg" alt="Cosmo Cramer">
-                    <p class="employee-name">Cosmo Cramer</p>
+                    <p class="employee-name">Cosmo Cramer</p><!-- Имена лучше заголовками. -->
                     <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
                         sollicitudin, lorem quis bibendum auctor,</p>
-                    <div class="social">
+                    <div class="social"><!-- Это список. Думаем на перед. Фактически тут может быть намного больше соц сетей. -->
                         <i class="icon-twitter"></i>
                     </div>
                 </div>
@@ -156,8 +156,8 @@
                 <h3>Contact</h3>
                 <p>Please contact us and we can discuss work!</p>
             </div>
-            <form action="#">
-                <input id="name" type="text" placeholder="Name">
+            <form action="#"><!-- А метод где? -->
+                <input id="name" type="text" placeholder="Name"><!-- А как без нейм атрибута понять что за поле прилетело? -->
                 <input type="email" id="email" placeholder="Email">
                 <textarea id="comment" placeholder="Message" rows="5"></textarea>
                 <input type="submit" value="Submit" id="btnSubmit">
@@ -168,7 +168,7 @@
                 <p>Email</p>
                 giddyup@kramer.com
                 <p>Phone</p>
-                +1 212-532-1256
+                +1 212-532-1256<!-- Телефон и емейл - всегда ссылки -->
             </address>
         </section>
         <footer>
@@ -181,14 +181,14 @@
                     +1 212-532-1256
                 </p>
             </div>
-            <div class="social-footer">
+            <div class="social-footer"><!-- Ну ведь список же -->
                 <i class="icon-twitter"></i>
                 <i class="icon-facebook"></i>
                 <i class="icon-instagram"></i>
             </div>
         </footer>
 
-        <script src="./js/custom.js"></script>
+        <script src="./js/custom.js"></script> <!-- дописывай к своим скриптам атрибут асинхронной загрузки или defer -->
     </body>
-    
+
 </html>
